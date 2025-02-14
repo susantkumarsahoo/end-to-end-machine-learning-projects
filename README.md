@@ -3,7 +3,8 @@
 
 ### Project File architecture
 
-* project_name/
+
+project_name/
 ├── data/
 │   ├── raw/
 │   │   └── data.csv
