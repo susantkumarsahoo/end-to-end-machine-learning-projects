@@ -31,7 +31,13 @@ project_name/
 ├── deploy.sh
 └── Dockerfile
 
-
+## use setup
+Anaconda:
+Vs code:
+Git: 
+Flowchart: 
+MLOPs Tool: 
+MongoDB: 
 
 
 
