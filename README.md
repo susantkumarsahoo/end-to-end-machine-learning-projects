@@ -40,13 +40,13 @@ MLOPs Tool:
 MongoDB: 
 
 
-Git commands
+## Git commands
 git add .
 
 git commit -m "Updated"
 
 git push origin main
-How to run?
+## How to run?
 conda create -n visa python=3.8 -y
 conda activate visa
 pip install -r requirements.txt
@@ -63,7 +63,7 @@ export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
 
 export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
-AWS-CICD-Deployment-with-Github-Actions
+## AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
 #with specific access
