@@ -50,13 +50,13 @@ git push origin main
 conda create -n visa python=3.8 -y
 conda activate visa
 pip install -r requirements.txt
-Workflow:
+## Workflow:
 constants
 entity
 components
 pipeline
 Main file
-Export the environment variable
+## Export the environment variable
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
 
 export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
@@ -110,10 +110,11 @@ sudo usermod -aG docker ubuntu
 
 newgrp docker
 6. Configure EC2 as self-hosted runner:
+
 setting>actions>runner>new self hosted runner> choose os> then run command one by one
 7. Setup github secrets:
-AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY
-AWS_DEFAULT_REGION
-ECR_REPO
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_DEFAULT_REGION
+- ECR_REPO
 
